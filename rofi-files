@@ -7,7 +7,7 @@ if __name__ == '__main__':
     files = subprocess.run('fd', encoding='utf-8',
                            capture_output=True).stdout.split('\n')
 
-    title = 'rofi-files'
+    title = 'wofi-files'
     rofi_command = 'wofi -dmenu -i -p {}'.format(title)
     rofi_input = '\n'.join(file for file in files)
     cp = subprocess.run(rofi_command.split(), input=rofi_input,
