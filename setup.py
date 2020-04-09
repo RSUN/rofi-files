@@ -3,8 +3,8 @@
 from setuptools import setup
 
 setup(
-    name='rofi-files',
-    version='0.1.2',
-    scripts=['rofi-files'],
-    url='https://github.com/cjbassi/rofi-files',
+    name='wofi-files',
+    version='0.0.1',
+    scripts=['wofi-files'],
+    url='https://github.com/RSUN/rofi-files',
 )
